@@ -18,19 +18,19 @@ highlight Macro		ctermfg=12	ctermbg=NONE
 highlight PreCondit	ctermfg=11	ctermbg=NONE
 " Constant
 highlight Constant	ctermfg=12	ctermbg=NONE
-highlight String	ctermfg=11	ctermbg=NONE
+highlight String	ctermfg=3	ctermbg=NONE
 highlight Character	ctermfg=5	ctermbg=NONE
 highlight Number	ctermfg=6	ctermbg=NONE
 highlight Float		ctermfg=6	ctermbg=NONE
 highlight Boolean	ctermfg=6	ctermbg=NONE
 " Identifier
 highlight Identifier	ctermfg=1	ctermbg=NONE	cterm=NONE
-highlight Function	ctermfg=12 ctermbg=NONE
+highlight Function	ctermfg=4 ctermbg=NONE
 " Statement
 highlight Statement	ctermfg=2	ctermbg=NONE
 highlight Operator	ctermfg=2	ctermbg=NONE
 highlight Conditional	ctermfg=1	ctermbg=NONE
-highlight Repeat	ctermfg=19	ctermbg=NONE
+highlight Repeat	ctermfg=4	ctermbg=NONE
 highlight Label		ctermfg=13	ctermbg=NONE
 highlight Keyword	ctermfg=1	ctermbg=NONE
 highlight Exception	ctermfg=1	ctermbg=NONE
@@ -42,7 +42,7 @@ highlight Typedef	ctermfg=3	ctermbg=NONE
 " Commment
 highlight Comment	ctermfg=8	ctermbg=NONE
 " Special
-highlight Special	ctermfg=17	ctermbg=NONE
+highlight Special	ctermfg=1	ctermbg=NONE
 highlight link	Delimiter	Function
 
 " Matching bracket
@@ -61,7 +61,3 @@ highlight DiffText	ctermfg=8	ctermbg=9	cterm=bold
 "Fold
 highlight Folded	ctermfg=8	ctermbg=7	cterm=bold
 highlight FoldColumn 	ctermfg=8	ctermbg=7	cterm=bold
-
-" Matching bracket
-highlight jsGlobalObjects ctermfg=14 ctermbg=NONE
-highlight jsThis ctermfg=14 ctermbg=NONE
